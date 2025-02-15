@@ -1,4 +1,4 @@
-from oop import Animal
+from oop import Animal, Rectangle, BankAccount
 
 # Khởi tạo object - đối tượng cụ thể
 a1 = Animal('Dog', 'Nam', 2, 'brown')
@@ -18,6 +18,12 @@ print(a3)
 # 	- Phương thức:
 # 		+ cvi(): tính chu vi HCN
 # 		+ dtich(: tính diện tích HCN
+hcn1 = Rectangle(4, 5)
+hcn2 = Rectangle(5, 10)
+print('\nChu vi HCN1:', hcn1.cvi())
+print('Diện tích HCN1:', hcn1.dtich())
+print('Chu vi HCN2:', hcn2.cvi())
+print('Diện tích HCN2:', hcn2.dtich())
 
 # Bài 2: Xây dựng class BankAccount gồm:
 # 	- Thuộc tính: 
@@ -26,3 +32,10 @@ print(a3)
 # 	- Phương thức:
 # 		+ deposit(): nạp tiền vào tài khoản
 # 		+ withdraw(): rút tiền và cập nhật số dư
+acc1 = BankAccount('Huy', 1)
+print(f'\nSố dư ban đầu: ${acc1.balance}')
+    # Nạp tiền
+acc1.deposit(50)
+    # Rút tiền
+acc1.withdraw(30)
+acc1.withdraw2()
