@@ -56,3 +56,44 @@ Trường học:     {self.school}
             self.age = new_age
             print('Tuổi đã được cập nhật!')
         self.display_info()
+
+# Bài tập
+class Animal:
+    # Khởi tạo thuộc tính
+    def __init__(self, ten, loai):
+        self.ten = ten
+        self.loai = loai
+    # Phương thức hiển thị thông tin
+    def display_info(self):
+        print(f'''
+========== THÔNG TIN =========
+Tên:    {self.ten}
+Loại:   {self.loai}
+===============================''')
+    # Phương thức eat
+    def eat(self):
+        print(f'{self.ten} đang ăn')
+
+class Dog(Animal):
+    # Khởi tạo thuộc tính
+    def __init__(self, ten, loai, giong):
+        super().__init__(ten, loai)
+        self.giong = giong
+    # Phương thức hiển thị thông tin
+    def display_info(self):
+        print(f'''
+========== THÔNG TIN =========
+Tên:    {self.ten}
+Loại:   {self.loai}
+Giống:  {self.giong}
+===============================''')
+    # Phương thức sửa đổi thông tin
+    def edit_name(self):
+        new_name = input('Nhập tên mới: ')
+        if new_name.strip() == '':
+            print('Tên không hợp lệ!')
+        else:
+            self.ten = new_name
+            print('Tên đã được cập nhật!')
+        self.display_info()
+    

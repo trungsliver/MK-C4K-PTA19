@@ -1,4 +1,5 @@
 from oop import Human, Student
+from oop import Animal, Dog
 
 stu1 = Student('Nam', 12, 'male', 'Ngô Quyền')
 
@@ -20,3 +21,12 @@ stu1.edit_age(2)
 # Yêu cầu:
 # - Tạo class ở file oop.py
 # - Viết chương trình test tại file main.py
+
+a1 = Animal('Loopy', 'Hải ly')
+a1.display_info()
+a1.eat()
+
+dog1 = Dog('Bơ', 'Chó', 'Shiba')
+dog1.display_info()
+dog1.eat() 
+dog1.edit_name()
