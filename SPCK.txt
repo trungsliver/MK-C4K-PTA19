@@ -11,7 +11,7 @@
 - Slides:
 
 4. Hoàng Nam
-- Ý tưởng: ap toán học, calculator, giải phương trình bậc 2
+- Ý tưởng: app toán học, calculator, giải phương trình bậc 2
 - Slides:
 
 5. Hiếu An
