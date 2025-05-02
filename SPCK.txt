@@ -1,10 +1,10 @@
 1. Ngọc Huy
-- Ý tưởng: 
+- Ý tưởng: game đoán số
 - Slides:
 
 2. Trường Giang
-- Ý tưởng: app bán vé xem phim
-- Slides:
+- Ý tưởng: NetFlix App
+- Slides: https://www.canva.com/design/DAGluOs0a4U/AsMoPnHYLGht2veiVDJ89A/edit
 
 3. Minh Ngọc
 - Ý tưởng: marketplace for artist
@@ -20,4 +20,4 @@
 
 6. Tiến Dũng
 - Ý tưởng: app thời gian
-- Slides:
+- Slides: https://www.canva.com/design/DAGluO3YQrs/Mcr85t9T0poz1WXBnJO94w/edit
