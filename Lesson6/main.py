@@ -22,6 +22,7 @@ class Signup(QMainWindow):
         password = self.lineEdit_password.text().strip()
         confirm = self.lineEdit_confirm.text().strip()
         checkB = self.checkBox.isChecked()
+        
         # Biến kiểm tra đăng ký
         check = True
 
